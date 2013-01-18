@@ -51,4 +51,4 @@ class Loop(object):
 def loop(iterable, n=1):
     looper = Loop(iterable)
     for x in looper(n):
-        yield [looper] + (x if isinstance(x, list) else [x])
+        yield looper, x
