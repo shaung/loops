@@ -8,14 +8,14 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 params = {
-    'name': 'loop',
+    'name': 'loops',
     'version': __VERSION__,
-    'description': '',
+    'description': 'Loop context utility inspired by Mako',
     'long_description': read('README.md'),
     'author': 'shaung',
     'author_email': 'shaun.geng@gmail.com',
-    'url': 'https://github.com/shaung/loop/',
-    'py_modules': ['loop'],
+    'url': 'https://github.com/shaung/loops/',
+    'py_modules': ['loops'],
     'license': 'BSD',
     'download_url': '',
     'zip_safe': False,
